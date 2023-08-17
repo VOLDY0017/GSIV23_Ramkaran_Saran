@@ -1,0 +1,123 @@
+@import "node_modules/bootstrap/scss/bootstrap"; 
+
+.app-start {
+  padding: 1rem;
+  background-color: lightgrey;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header-bar{
+  background-color: orchid;
+}
+
+.movie-card{
+  min-height: 50px;
+}
+
+.movie-data{
+  text-align: left;
+}
+
+.ant-card-body{
+  padding: 18px !important;
+  font-size: 12px;
+  height: 520px;
+}
+
+.movies{
+  padding: 18px;
+}
+
+.movie-rating{
+  text-align: right;
+}
+
+.movie-rating-img{
+  height: 15px;
+}
+.movie-title {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.movie-description{
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+//David Bowie: The Rise And Fall of Ziggy Stardust 
+.home-pagination{
+  text-align: right;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+
+.align-center{
+  text-align: center;
+}
+
+// Detail Page CSS
+
+.movie-detail-img{
+  height : 450px
+}
+
+.movie-details{
+  padding: 20px;
+  background-color: lightgray;
+
+  .ant-card-body{
+    height: auto;
+  }
+
+  .movie-detail-rating{
+     font-size: 14px;
+
+  }
+
+  .movie-description-text{
+    font-size: 14px;
+  }
+  .movie-detail-rating-img{
+    height: 20px;
+  }
+}
